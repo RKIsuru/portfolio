@@ -1,7 +1,5 @@
-import "./App.css";
 import Articles from "./sections/Articles/Articles";
 import Contact from "./sections/Contact/Contact";
-import Footer from "./sections/Footer/Footer";
 import Hero from "./sections/Hero/Hero";
 import Navbar from "./sections/Navbar/Navbar";
 import Projects from "./sections/Projects/Projects";
@@ -16,7 +14,6 @@ function App() {
       <Skills />
       <Articles />
       <Contact />
-      <Footer />
     </>
   );
 }
