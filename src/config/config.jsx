@@ -1,5 +1,0 @@
-const config = {
-  GITHUB_TOKEN: "",
-};
-
-export default config;
