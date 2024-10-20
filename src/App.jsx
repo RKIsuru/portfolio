@@ -1,3 +1,4 @@
+import { Toaster } from "react-hot-toast";
 import Articles from "./sections/Articles/Articles";
 import Contact from "./sections/Contact/Contact";
 import Hero from "./sections/Hero/Hero";
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <Articles />
       <Contact />
+      <Toaster />
     </>
   );
 }
