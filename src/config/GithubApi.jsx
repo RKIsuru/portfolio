@@ -1,7 +1,6 @@
 import axios from "axios";
-import config from "./config";
 
-const GITHUB_TOKEN = config.GITHUB_TOKEN;
+const GITHUB_TOKEN = import.meta.env.VITE_API_KEY;
 const BASE_URL = "https://api.github.com/users/rkisuru/repos";
 
 export const fetchRepos = async () => {
