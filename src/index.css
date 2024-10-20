@@ -7,3 +7,17 @@
 * {
   font-family: "poppins", sans-serif;
 }
+
+body {
+  background-color: #030712;
+  background-image: radial-gradient(
+    ellipse 80% 80% at 50% -20%,
+    rgba(46, 46, 46, 0.89),
+    rgba(255, 255, 255, 0)
+  );
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
