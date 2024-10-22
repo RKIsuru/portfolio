@@ -11,6 +11,10 @@ export default {
       fontFamily: {
         poppins: ["poppins", "san-serif"],
       },
+      screens: {
+        xxxs: "300px",
+        xxs: "440px",
+      },
     },
   },
   plugins: [require("@tailwindcss/forms"), require("preline/plugin")],
