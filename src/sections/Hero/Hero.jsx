@@ -6,7 +6,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import hero from "../../assets/hero-img.png";
+import hero from "../../assets/my_portfolio.png";
 import { motion } from "framer-motion";
 import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
 
