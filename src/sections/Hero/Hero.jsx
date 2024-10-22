@@ -12,7 +12,7 @@ import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
 
 const Hero = () => {
   return (
-    <div className="h-screen" id="hero">
+    <div className="h-screen w-screen" id="hero">
       <div className="max-w-[85rem] h-full mx-auto px-4 sm:px-6 lg:px-8 my-auto flex items-center justify-center">
         <div className="flex flex-col-reverse md:flex-row justify-evenly items-center">
           <div className="md:max-w-80 lg:max-w-2xl">

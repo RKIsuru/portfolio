@@ -61,7 +61,7 @@ const Projects = () => {
     });
 
   return (
-    <div id="projects" className="pt-28">
+    <div id="projects" className="pt-28 w-screen">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -50 }}

@@ -49,7 +49,7 @@ const iconVariants = (duration) => ({
 
 const Skills = () => {
   return (
-    <div className="pt-28" id="skills">
+    <div className="pt-28 w-screen" id="skills">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -50 }}
@@ -59,13 +59,13 @@ const Skills = () => {
         Skills
       </motion.h1>
 
-      <div className="mt-16 max-w-[85rem] md:px-4 pt-6 mx-5 lg:px-8 lg:pt-14 md:mx-auto">
+      <div className="mt-16 max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -50 }}
           transition={{ duration: 1.5 }}
         >
-          <div className="grid md:grid-cols-3 gap-6 lg:gap-12">
+          <div className="grid md:grid-cols-3 gap-y-4 md:gap-6 lg:gap-12">
             <div className="text-white flex gap-x-5 sm:gap-x-8">
               <FontAwesomeIcon icon={faMobileAlt} size="2xl" />
               <div className="grow">
@@ -147,7 +147,7 @@ const Skills = () => {
         </motion.div>
       </div>
 
-      <div className="max-w-[85rem] px-4 pt-6 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className="max-w-[85rem] px-4 pt-6 sm:px-6 lg:px-8 lg:py-14 mx-auto overflow-hidden">
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 50 }}
