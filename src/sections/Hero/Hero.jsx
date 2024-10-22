@@ -14,8 +14,8 @@ const Hero = () => {
   return (
     <div className="h-screen w-screen" id="hero">
       <div className="max-w-[85rem] h-full mx-auto px-4 sm:px-6 lg:px-8 my-auto flex items-center justify-center">
-        <div className="flex flex-col-reverse md:flex-row justify-evenly items-center">
-          <div className="md:max-w-80 lg:max-w-2xl">
+        <div className="flex flex-col-reverse justify-evenly">
+          <div className="w-[350px] sm:w-[400px] md:w-[600px] lg:w-2xl">
             <div>
               <motion.h1
                 initial={{ x: -100, opacity: 0 }}
@@ -37,7 +37,7 @@ const Hero = () => {
                 initial={{ x: -100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1, delay: 1.5 }}
-                className="mt-8 text-lg text-gray-800 dark:text-neutral-200"
+                className="mt-8 text-lg text-gray-800 dark:text-neutral-200 text-center"
               >
                 A passionate full-stack developer, building web applications
                 that solve real-world problems using modern technologies.
@@ -69,7 +69,7 @@ const Hero = () => {
                 initial={{ x: -100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1, delay: 2 }}
-                className="md:mt-20 mt-10"
+                className="md:mt-14 mt-10"
               >
                 <div className="flex items-start gap-10 justify-center text-white">
                   <a
@@ -118,7 +118,7 @@ const Hero = () => {
           </div>
           <div>
             <motion.img
-              className="w-[200px] sm:w-96 mx-auto rounded-md"
+              className="w-[200px] sm:w-80 mx-auto rounded-md mb-5"
               src={hero}
               alt="Hero Image"
               initial={{ x: 100, opacity: 0 }}

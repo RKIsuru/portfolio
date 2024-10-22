@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Articles = () => {
   return (
-    <div id="articles" className="pt-28 h-screen w-screen">
+    <div id="articles" className="pt-28 w-screen">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -50 }}
