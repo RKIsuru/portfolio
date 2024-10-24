@@ -9,7 +9,6 @@ import bs from "../../assets/bootstrap.svg";
 import cSharp from "../../assets/c-sharp.svg";
 import css from "../../assets/css-3.svg";
 import docker from "../../assets/docker-icon.svg";
-import es from "../../assets/elasticsearch.svg";
 import html from "../../assets/html-5.svg";
 import ii from "../../assets/intellij-idea.svg";
 import java from "../../assets/java.svg";
@@ -20,7 +19,6 @@ import ts from "../../assets/typescript-icon.svg";
 import tw from "../../assets/tailwindcss-icon.svg";
 import psql from "../../assets/postgresql.svg";
 import msql from "../../assets/mysql-icon.svg";
-import kafka from "../../assets/kafka-icon.svg";
 import js from "../../assets/javascript.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -154,7 +152,7 @@ const Skills = () => {
           transition={{ duration: 1.5 }}
           className="my-8 md:my-16 grid grid-cols-3 md:grid-cols-8 gap-6 sm:gap-x-12 lg:gap-x-20 justify-items-center"
         >
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -164,7 +162,7 @@ const Skills = () => {
             />
           </a>
 
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -174,7 +172,7 @@ const Skills = () => {
             />
           </a>
 
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -184,7 +182,7 @@ const Skills = () => {
             />
           </a>
 
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -194,7 +192,7 @@ const Skills = () => {
             />
           </a>
 
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -204,7 +202,7 @@ const Skills = () => {
             />
           </a>
 
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -214,7 +212,7 @@ const Skills = () => {
             />
           </a>
 
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -224,7 +222,7 @@ const Skills = () => {
             />
           </a>
 
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -233,7 +231,7 @@ const Skills = () => {
               src={js}
             />
           </a>
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -242,7 +240,7 @@ const Skills = () => {
               src={ts}
             />
           </a>
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -251,7 +249,7 @@ const Skills = () => {
               src={html}
             />
           </a>
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -260,7 +258,7 @@ const Skills = () => {
               src={css}
             />
           </a>
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -269,7 +267,7 @@ const Skills = () => {
               src={bs}
             />
           </a>
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -279,7 +277,7 @@ const Skills = () => {
             />
           </a>
 
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -288,7 +286,7 @@ const Skills = () => {
               src={msql}
             />
           </a>
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -298,7 +296,7 @@ const Skills = () => {
             />
           </a>
 
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -308,7 +306,7 @@ const Skills = () => {
             />
           </a>
 
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -317,7 +315,7 @@ const Skills = () => {
               src={unity}
             />
           </a>
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -326,7 +324,7 @@ const Skills = () => {
               src={vs}
             />
           </a>
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -335,7 +333,7 @@ const Skills = () => {
               src={cSharp}
             />
           </a>
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
@@ -344,7 +342,7 @@ const Skills = () => {
               src={ps}
             />
           </a>
-          <a className="shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="shrink-0 transition hover:-translate-y-1">
             <motion.img
               initial="initial"
               animate="animate"
