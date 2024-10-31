@@ -131,8 +131,8 @@ const Contact = () => {
 
           <footer className="w-full max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="py-6 border-t border-gray-200 dark:border-neutral-700">
-              <div className="flex flex-wrap justify-between items-center gap-2">
-                <div>
+              <div className="flex flex-wrap justify-between items-center gap-2 flex-col sm:flex-row">
+                <div className="text-center">
                   <p className="text-xs text-gray-600 dark:text-neutral-400">
                     © 2024 Isuru Aravinda.
                   </p>

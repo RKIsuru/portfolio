@@ -82,7 +82,7 @@ const Projects = () => {
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1.5 }}
                 key={repo.id}
-                className="group flex flex-col h-full xxxs:w-[90%] xxs:w-[380px] bg-white border sm:w-auto border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 transition hover:-translate-y-1"
+                className="group flex flex-col h-full xxxs:w-[320px] xxs:w-[380px] bg-white border sm:w-auto border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 transition hover:-translate-y-1"
               >
                 <div className="h-52 flex flex-col justify-center items-center rounded-t-xl">
                   <a href={repo.html_url} target="_blank">
