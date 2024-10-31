@@ -65,7 +65,10 @@ const Skills = () => {
         >
           <div className="grid md:grid-cols-3 gap-y-4 md:gap-6 lg:gap-12">
             <div className="text-white flex gap-x-5 sm:gap-x-8">
-              <FontAwesomeIcon icon={faMobileAlt} size="2xl" />
+              <FontAwesomeIcon
+                icon={faMobileAlt}
+                style={{ width: "40px", height: "40px" }}
+              />
               <div className="grow">
                 <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
                   Building fully responsive UIs
@@ -78,7 +81,10 @@ const Skills = () => {
             </div>
 
             <div className="text-white flex gap-x-5 sm:gap-x-8">
-              <FontAwesomeIcon icon={faCogs} size="2xl" />
+              <FontAwesomeIcon
+                icon={faCogs}
+                style={{ width: "40px", height: "40px" }}
+              />
               <div className="grow">
                 <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
                   Microservices architecture
@@ -91,7 +97,10 @@ const Skills = () => {
             </div>
 
             <div className="text-white flex gap-x-5 sm:gap-x-8">
-              <FontAwesomeIcon icon={faBolt} size="2xl" />
+              <FontAwesomeIcon
+                icon={faBolt}
+                style={{ width: "40px", height: "40px" }}
+              />
               <div className="grow">
                 <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
                   API development and integration
@@ -104,7 +113,10 @@ const Skills = () => {
             </div>
 
             <div className="text-white flex gap-x-5 sm:gap-x-8">
-              <FontAwesomeIcon icon={faDocker} size="2xl" />
+              <FontAwesomeIcon
+                icon={faDocker}
+                style={{ width: "40px", height: "40px" }}
+              />
               <div className="grow">
                 <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
                   Containerization with Docker
@@ -117,7 +129,10 @@ const Skills = () => {
             </div>
 
             <div className="text-white flex gap-x-5 sm:gap-x-8">
-              <FontAwesomeIcon icon={faRepeat} size="2xl" />
+              <FontAwesomeIcon
+                icon={faRepeat}
+                style={{ width: "40px", height: "40px" }}
+              />
               <div className="grow">
                 <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
                   Automated CI/CD pipelines
@@ -130,7 +145,10 @@ const Skills = () => {
             </div>
 
             <div className="text-white flex gap-x-5 sm:gap-x-8">
-              <FontAwesomeIcon icon={faDatabase} size="2xl" />
+              <FontAwesomeIcon
+                icon={faDatabase}
+                style={{ width: "40px", height: "40px" }}
+              />
               <div className="grow">
                 <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
                   Database design and optimization
