@@ -1,5 +1,4 @@
 import {
-  faDiscord,
   faFacebook,
   faGithub,
   faMedium,
@@ -9,6 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import hero from "../../assets/my_portfolio.png";
 import { motion } from "framer-motion";
 import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
+import cv from "../../assets/20APC4671_ISURU.pdf";
 
 const Hero = () => {
   return (
@@ -52,6 +52,7 @@ const Hero = () => {
                 <a
                   className="transition hover:-translate-y-1 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-white text-gray-800 hover:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none"
                   href="#"
+                  download={cv}
                 >
                   Resume
                   <FontAwesomeIcon icon={faFile} size="lg" />
