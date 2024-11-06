@@ -12,7 +12,7 @@ import cv from "../../assets/20APC4671_ISURU.pdf";
 
 const Hero = () => {
   return (
-    <div className="h-screen w-screen" id="hero">
+    <div className="mt-20" id="hero">
       <div className="max-w-[85rem] h-full mx-auto px-4 sm:px-6 lg:px-8 my-auto flex items-center justify-center">
         <div className="flex flex-col-reverse justify-evenly">
           <div className="w-[350px] sm:w-[400px] md:w-[600px] lg:w-2xl">
