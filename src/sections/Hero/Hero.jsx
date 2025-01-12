@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import hero from "../../assets/my_portfolio.png";
 import { motion } from "framer-motion";
 import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
-import cv from "../../assets/20APC4671_ISURU.pdf";
+import cv from "../../assets/Isuru Aravinda.pdf";
 
 const Hero = () => {
   return (
