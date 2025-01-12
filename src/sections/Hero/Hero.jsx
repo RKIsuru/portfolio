@@ -51,8 +51,8 @@ const Hero = () => {
               >
                 <a
                   className="transition hover:-translate-y-1 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-white text-gray-800 hover:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none"
-                  href="#"
-                  download={cv}
+                  href={cv}
+                  download="CV.pdf"
                 >
                   Resume
                   <FontAwesomeIcon icon={faFile} size="lg" />
